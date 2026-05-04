@@ -30,7 +30,7 @@ apt install -y curl wget git unzip nano ufw
 
 2. Setting Firewall
 bash
-ufw allow 22
+ufw allow 1375/tcp
 ufw allow 80
 ufw allow 443
 ufw allow 4200/tcp
