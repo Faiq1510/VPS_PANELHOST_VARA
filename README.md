@@ -1,4 +1,4 @@
-Preview Vidio : https://youtu.be/6U70jR_coHw?si=WfDD8LmSCAkVvz_p
+**Preview Vidio Vps-Panel** : https://youtu.be/6U70jR_coHw?si=WfDD8LmSCAkVvz_p
  
  VPS Panel — Docker-Based VPS Hosting Panel
 ![PHP](https://img.shields.io/badge/PHP-8.1-blue?logo=php)
@@ -61,13 +61,13 @@ apt install -y php8.1 libapache2-mod-php8.1 php8.1-mysql \
 
 a2enmod rewrite proxy proxy_http proxy_wstunnel headers
 systemctl restart apache2
-```
+
 5. Install MySQL
 bash
 apt install -y mysql-server
 systemctl enable mysql
 mysql_secure_installation
-```
+
 6. Install Shellinabox
 bash
 apt install -y shellinabox
