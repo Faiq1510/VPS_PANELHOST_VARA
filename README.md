@@ -1,3 +1,5 @@
+Preview Vidio : https://youtu.be/6U70jR_coHw?si=WfDD8LmSCAkVvz_p
+ 
  VPS Panel — Docker-Based VPS Hosting Panel
 ![PHP](https://img.shields.io/badge/PHP-8.1-blue?logo=php)
 ![Apache](https://img.shields.io/badge/Apache-2.4-red?logo=apache)
@@ -6,7 +8,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 Panel hosting VPS berbasis Docker yang dibangun dengan PHP Native, MySQL, dan Apache. Panel ini memungkinkan administrator untuk mengelola VPS container Docker melalui antarmuka web yang modern dan responsif, dilengkapi dengan virtual console berbasis browser menggunakan Shellinabox.
 
-Preview
 
 Dashboard → VPS Containers → Terminal → Voucher → Pengaturan
 
@@ -220,17 +221,7 @@ a2ensite vps-panel.conf
 a2dissite 000-default.conf
 systemctl reload apache2
 
-12. Akses Panel
-Buka browser dan akses:
-
-http://yourdomain.com/vps-panel/
-
-Login dengan:
-
-Username : admin
-Password : admin123
-
-> Segera ganti password default setelah login pertama!
+VIDIO PREVIEW
 
 Developer
 Dibuat oleh Faiq — GitHub @Faiq1510
