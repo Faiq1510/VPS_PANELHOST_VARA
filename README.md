@@ -30,13 +30,13 @@ apt install -y curl wget git unzip nano ufw
 
 2. Setting Firewall
 bash
-ufw allow PORT_SSH/tcp
-ufw allow 80/tcp
-ufw allow 443/tcp
-ufw allow 4200/tcp
-ufw allow 12000:13000/tcp
-ufw allow 21000:22000/tcp
-ufw allow 4000:5000/tcp
+ufw allow 22/tcp      # SSH
+ufw allow 80/tcp      # HTTP
+ufw allow 443/tcp     # HTTPS
+ufw allow 4200/tcp    # Shellinabox
+ufw allow 12000:13000/tcp  # Range SSH container
+ufw allow 21000:22000/tcp  # Range Web container
+ufw allow 4000:5000/tcp    # Range Console container
 ufw enable
 
 3. Install Docker
